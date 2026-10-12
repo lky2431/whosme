@@ -1,0 +1,14 @@
+.git
+.agents
+.github
+.local
+.tools
+node_modules
+**/.dart_tool
+**/build
+**/.env*
+**/passwords.yaml
+**/*service_account*.json
+yourname_flutter
+yourname_client
+yourname_server/web/app

@@ -1,0 +1,178 @@
+{
+  "fps": 30,
+  "duration": 2610,
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "duration": 180,
+      "seconds": 6
+    },
+    {
+      "id": "why",
+      "start": 180,
+      "duration": 270,
+      "seconds": 9
+    },
+    {
+      "id": "host",
+      "start": 450,
+      "duration": 210,
+      "seconds": 7
+    },
+    {
+      "id": "join",
+      "start": 660,
+      "duration": 150,
+      "seconds": 5
+    },
+    {
+      "id": "identity",
+      "start": 810,
+      "duration": 180,
+      "seconds": 6
+    },
+    {
+      "id": "answer",
+      "start": 990,
+      "duration": 210,
+      "seconds": 7
+    },
+    {
+      "id": "next",
+      "start": 1200,
+      "duration": 120,
+      "seconds": 4
+    },
+    {
+      "id": "guess",
+      "start": 1320,
+      "duration": 210,
+      "seconds": 7
+    },
+    {
+      "id": "reveal",
+      "start": 1530,
+      "duration": 150,
+      "seconds": 5
+    },
+    {
+      "id": "devices",
+      "start": 1680,
+      "duration": 180,
+      "seconds": 6
+    },
+    {
+      "id": "serverpod",
+      "start": 1860,
+      "duration": 270,
+      "seconds": 9
+    },
+    {
+      "id": "sync",
+      "start": 2130,
+      "duration": 150,
+      "seconds": 5
+    },
+    {
+      "id": "payoff",
+      "start": 2280,
+      "duration": 210,
+      "seconds": 7
+    },
+    {
+      "id": "outro",
+      "start": 2490,
+      "duration": 120,
+      "seconds": 4
+    }
+  ],
+  "cues": [
+    {
+      "start": 12,
+      "duration": 97,
+      "text": "Your friends know your name. But how well do they know you?",
+      "file": "audio-v2/hook.wav"
+    },
+    {
+      "start": 192,
+      "duration": 178,
+      "text": "I made Who's Me for friend gatherings. A game to get us laughing, talking, and knowing each other better.",
+      "file": "audio-v2/why.wav"
+    },
+    {
+      "start": 462,
+      "duration": 91,
+      "text": "One friend creates a room and chooses the questions.",
+      "file": "audio-v2/host.wav"
+    },
+    {
+      "start": 672,
+      "duration": 71,
+      "text": "Everyone else joins with the room code.",
+      "file": "audio-v2/join.wav"
+    },
+    {
+      "start": 822,
+      "duration": 151,
+      "text": "You secretly get another friend's name. Alice gets Ben. Her challenge? Think like him.",
+      "file": "audio-v2/identity.wav"
+    },
+    {
+      "start": 1002,
+      "duration": 130,
+      "text": "Which animal would Ben be for a day? Alice chooses Dog, and locks it in.",
+      "file": "audio-v2/answer.wav"
+    },
+    {
+      "start": 1212,
+      "duration": 89,
+      "text": "Once everyone answers, the next question begins.",
+      "file": "audio-v2/next.wav"
+    },
+    {
+      "start": 1332,
+      "duration": 120,
+      "text": "Read everyone's answers. Who was pretending to be you? Make your guess.",
+      "file": "audio-v2/guess-v2.wav"
+    },
+    {
+      "start": 1542,
+      "duration": 73,
+      "text": "Alice guesses David. And she's right!",
+      "file": "audio-v2/reveal.wav"
+    },
+    {
+      "start": 1692,
+      "duration": 92,
+      "text": "Flutter lets the same game adapt to different screens.",
+      "file": "audio-v2/devices.wav"
+    },
+    {
+      "start": 1872,
+      "duration": 165,
+      "text": "Serverpod takes care of the backend plumbing, so I can spend more time building the game in Flutter.",
+      "file": "audio-v2/serverpod.wav"
+    },
+    {
+      "start": 2142,
+      "duration": 97,
+      "text": "Its streams keep answers flowing between players, live.",
+      "file": "audio-v2/sync.wav"
+    },
+    {
+      "start": 2292,
+      "duration": 130,
+      "text": "The best part isn't the score. It's asking, why did you think I'd choose that?",
+      "file": "audio-v2/payoff.wav"
+    },
+    {
+      "start": 2502,
+      "duration": 60,
+      "text": "Who's Me? Think like a friend.",
+      "file": "audio-v2/outro.wav"
+    }
+  ],
+  "voice": "Kokoro af_heart (local neural synthesis)",
+  "playUrl": "https://whosme-511315.web.app"
+}

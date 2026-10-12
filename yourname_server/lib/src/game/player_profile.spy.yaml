@@ -1,0 +1,12 @@
+class: PlayerProfile
+table: player_profile
+serverOnly: true
+fields:
+  userId: String
+  displayName: String
+  avatarIndex: int
+  avatarImage: String?
+indexes:
+  player_profile_user_unique:
+    fields: userId
+    unique: true

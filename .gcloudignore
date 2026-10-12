@@ -1,0 +1,26 @@
+# Only backend source and build configuration may leave this workspace.
+*
+!pubspec.lock
+!tool/
+tool/*
+!tool/cloudbuild.yaml
+!yourname_server/
+yourname_server/*
+!yourname_server/Dockerfile
+!yourname_server/pubspec.yaml
+!yourname_server/lib/
+!yourname_server/lib/**
+!yourname_server/bin/
+!yourname_server/bin/main.dart
+!yourname_server/config/
+yourname_server/config/*
+!yourname_server/config/production.yaml
+!yourname_server/migrations/
+!yourname_server/migrations/**
+!yourname_server/web/
+!yourname_server/web/**
+yourname_server/web/app/**
+**/.env*
+**/passwords.yaml
+**/*service_account*.json
+**/*.log

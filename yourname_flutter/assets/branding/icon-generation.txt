@@ -1,0 +1,6 @@
+Generated with the built-in image_gen tool on 2026-10-12.
+Master: yourname-icon-master.png
+Recreate platform exports from the repository root: ./tool/generate-app-icons.ps1
+
+Final generation prompt:
+Use case: logo-brand. Create the finished square app icon for Yourname, a playful party game where friends answer questions as each other and guess their secret double. One bold, memorable symbol: two overlapping rounded character faces shaped subtly like speech bubbles, a sky blue rear face and sunshine yellow foreground face, each with minimal dark eyes and a friendly mischievous smile. Strong unified silhouette, charming slightly offset composition, confident very thick near-black outlines with rounded joins. Flat crisp vector-like illustration matching a playful paper UI. Palette exact inspiration: blue #50C9EE, yellow #FFD629, outlines #171A20, warm cream background #FFF8ED. Full-bleed solid cream square background, no rounded outer tile or external shadow. Keep all faces inside the central 70 percent with ample safe margin for circular app icon masking. Recognizable at 32 pixels. No text, letters, question marks, gradients, texture, decorative sparkles, mockup, watermark or presentation board. Output a single production app icon, 1024x1024.

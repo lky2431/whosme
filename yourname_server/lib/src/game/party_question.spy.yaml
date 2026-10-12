@@ -1,0 +1,13 @@
+class: PartyQuestion
+table: party_question
+serverOnly: true
+fields:
+  slug: String
+  category: String
+  prompt: String
+  choices: List<String>
+  enabled: bool, default=true
+indexes:
+  party_question_slug_unique:
+    fields: slug
+    unique: true

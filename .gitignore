@@ -1,0 +1,30 @@
+# Files and directories created by pub
+.dart_tool/
+.packages
+.local/
+/yourname_flutter/lib/env.dart
+
+# Pubspec overrides
+pubspec_overrides.yaml
+.neon
+.env
+.env.*
+!.env.example
+node_modules/
+
+# Local editor state and installed agent/tool packages
+.idea/
+.vscode/
+.tools/
+.agents/
+.claude/
+skills-lock.json
+
+# Logs, private credentials, and machine-specific configuration
+*.log
+*service_account*.json
+*service-account*.json
+*.pem
+*.p12
+*.pfx
+*.key

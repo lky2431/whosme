@@ -1,0 +1,11 @@
+class: GameRoom
+table: game_room
+serverOnly: true
+fields:
+  code: String
+  stateJson: String
+  expiresAt: DateTime
+indexes:
+  game_room_code_unique:
+    fields: code
+    unique: true

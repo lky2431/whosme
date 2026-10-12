@@ -1,0 +1,3 @@
+class: RoomPulse
+fields:
+  code: String

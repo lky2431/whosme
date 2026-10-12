@@ -1,0 +1,23 @@
+{
+  "name": "whos-me-hackathon-film",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.ts WhosMeV2 out/whos-me-v2.mp4 --codec=h264 --crf=20 --concurrency=2",
+    "still": "remotion still src/index.ts WhosMeV2 out/still-v2.png --frame=1050"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "remotion": "4.0.529",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

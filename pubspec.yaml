@@ -1,0 +1,12 @@
+name: yourname
+publish_to: none
+
+environment:
+  sdk: '^3.8.0'
+
+workspace:
+  - yourname_client
+  - yourname_server
+  - yourname_flutter
+
+

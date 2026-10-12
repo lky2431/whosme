@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "yourname-lky",
+    "production": "whosme-511315"
+  }
+}

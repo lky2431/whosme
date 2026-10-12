@@ -1,0 +1,12 @@
+class: SavedSeat
+table: saved_seat
+serverOnly: true
+fields:
+  userId: String
+  roomId: int
+  playerId: String
+  joinedAt: DateTime
+indexes:
+  saved_seat_user_room_unique:
+    fields: userId, roomId
+    unique: true

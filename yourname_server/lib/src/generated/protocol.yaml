@@ -1,0 +1,30 @@
+emailIdp:
+  - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
+  - hasAccount:
+firebaseIdp:
+  - login:
+  - hasAccount:
+jwtRefresh:
+  - refreshAccessToken:
+account:
+  - profile:
+  - saveProfile:
+  - games:
+  - history:
+game:
+  - categories:
+  - createRoom:
+  - joinRoom:
+  - snapshot:
+  - act:
+  - linkAccount:
+  - resume:
+  - watch:
+greeting:
+  - hello:

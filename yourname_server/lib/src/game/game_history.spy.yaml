@@ -1,0 +1,13 @@
+class: GameHistory
+table: game_history
+serverOnly: true
+fields:
+  userId: String
+  roomId: int
+  round: int
+  completedAt: DateTime
+  viewJson: String
+indexes:
+  game_history_user_room_round_unique:
+    fields: userId, roomId, round
+    unique: true
